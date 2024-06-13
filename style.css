@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+}
+
+.asidesection{
+  background-color: rgb(198, 153, 99);
+  grid-row: 1/6;
+  display: flex;
+  justify-content: center;
+}
+
+
+.hamburger-menu {
+  width: 40px; 
+  height: 30px; 
+  cursor: pointer; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.bar {
+  width: 100%;
+  height: 3px; 
+  background-color: white; 
+}
+
+
+
+
+
+
+
+
+.herosection{
+  height: 80vh; 
+  display: flex;
+
+} 
+
+.leftblock{
+  width: 70%;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(29, 29, 61, 0.9), rgba(32, 32, 63, 0.9)), url(img/hero.jpeg);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+.headerhero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  gap: 20px;
+  margin-top: 30px;
+ 
+}
+.logo p{
+  font-size: 25px;
+  color: rgb(198, 153, 99);
+}
+.logo img{
+  height: 40px;
+}
+.headline{
+  /* background-color: white; */
+  /* height: 150px; */
+  /* width: 700px; */
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  flex-direction: column;
+  width: 100%;

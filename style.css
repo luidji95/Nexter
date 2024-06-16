@@ -15,7 +15,6 @@
   justify-content: center;
 }
 
-
 .hamburger-menu {
   width: 40px; 
   height: 30px; 
@@ -25,19 +24,11 @@
   justify-content: space-between;
   margin-top: 50px;
 }
-
 .bar {
   width: 100%;
   height: 3px; 
   background-color: white; 
 }
-
-
-
-
-
-
-
 
 .herosection{
   height: 80vh; 
@@ -56,8 +47,6 @@
   align-items: center;
   
 }
-
-
 .headerhero{
   display: flex;
   justify-content: center;
@@ -91,3 +80,163 @@
   gap: 20px;
   flex-direction: column;
   width: 100%;
+
+}
+.headlinecontent{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  flex-direction: column;
+  padding-left: 200px;
+  
+}
+.headline p{
+ color: #fdba74;
+}
+.headline h1{
+  font-size: 50px;
+  color: white;
+}
+.headline button {
+  padding: 10px;
+  color: white;
+  background-color: rgb(198, 153, 99);
+  border-style: none;
+  cursor: pointer;
+}
+.footerhero{
+  /* background-color: white; */
+  height: 150px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  
+}
+.footerherocontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 200px;
+  gap:10px;
+}
+.seenon{
+  /* background-color: red; */
+  width: 100%;
+  /* height: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+.firstline{
+  width: 43%;
+}
+.secondline{
+  width: 43%;
+}
+.br1{
+  width: 100%;
+}
+.br2{
+  width: 100%;
+}
+.para{
+  color: white;
+}
+.logs{
+  /* background-color: black; */
+  width: 100%;
+  height: 50%;
+  display: flex;
+  gap:30px;
+  justify-content: center;
+  align-items: center;
+
+}
+.logs img{
+  height: 30px;
+}
+.realtorsblock{
+  background-color: #172554;
+  height: 100vh;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.top3realtors{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  /* background-color: aqua; */
+  flex-direction: column;
+  gap: 30px;
+}
+.top3{
+  color:  #fdba74;
+  margin-left: 33px;
+}
+.realtordiv{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+}
+.realtorspic img{
+  border-radius: 9999px;
+  height: 70px;
+}
+.realtorname{
+  color: white;
+}
+.house-sold{
+  font-size: 10px;
+}
+.name{
+  margin-bottom: 5px;
+}
+.section3{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description{
+  background-color: white;
+  margin: 120px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+
+}
+.divgrid{
+  background-color: white;
+  display: flex;
+  gap:30px;
+}
+.divinside{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+
+}
+.divinside h4{
+  font-size: 18px;
+  /* color: rgb(198, 153, 99); */
+}
+.divinside p{
+  font-size: 16px;
+}
+.alipay{
+  height: 50px;
+}

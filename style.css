@@ -8,12 +8,15 @@
   grid-template-columns: 80px 1fr;
 }
 
+
 .asidesection{
   background-color: rgb(198, 153, 99);
   grid-row: 1/6;
   display: flex;
   justify-content: center;
+  
 }
+
 
 .hamburger-menu {
   width: 40px; 
@@ -24,11 +27,13 @@
   justify-content: space-between;
   margin-top: 50px;
 }
+
 .bar {
   width: 100%;
   height: 3px; 
-  background-color: white; 
+  background-color: whitesmoke; 
 }
+
 
 .herosection{
   height: 80vh; 
@@ -47,6 +52,8 @@
   align-items: center;
   
 }
+
+
 .headerhero{
   display: flex;
   justify-content: center;
@@ -161,6 +168,7 @@
 .logs img{
   height: 30px;
 }
+
 .realtorsblock{
   background-color: #172554;
   height: 100vh;
@@ -201,12 +209,16 @@
 .name{
   margin-bottom: 5px;
 }
+
+
+
 .section3{
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .description{
   background-color: white;
   margin: 120px;
@@ -216,7 +228,6 @@
   gap: 20px;
   justify-content: center;
   align-content: center;
-
 }
 .divgrid{
   background-color: white;
@@ -240,3 +251,198 @@
 .alipay{
   height: 50px;
 }
+
+.section4{
+  /* background-color: black; */
+  /* height: 700px; */
+  display: flex;
+}
+.section4-left-block{
+  width: 50%;
+  
+  background-image: linear-gradient(rgba(216, 228, 54, 0.4), rgba(230, 233, 48, 0.3)), url(img/back.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.together{
+  background-image: url(img/story1.jpeg);
+  height: 400px;
+  width: 600px;
+  background-size: cover;
+  background-position: center;
+ 
+ 
+
+  position: relative;
+}
+
+.section4-right-block{
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.decision{
+  /* height: 300px; */
+  /* width: 500px; */
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+.decision h3{
+  font-size: 38px;
+}
+.find-your-home{
+  padding: 15px;
+  background-color: rgb(198, 153, 99);
+  color:white;
+  border-style: none;
+  width: 250px;
+}
+.happy-customers{
+  color: rgb(198, 153, 99);
+  font-size: 18px;
+}
+.absolutehouse{
+  background-image: url(img/story2.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 550px;
+
+  position: absolute;
+  top:200px;
+  left: 300px;
+  
+}
+
+.section5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.section5div{
+  /* background-color: yellow; */
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 500px 500px;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  margin: 50px;
+}
+.el-section5-div{
+  background-color: whitesmoke;
+  margin:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.el-section5-house1{
+  background-image: url(img/house1.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.el-section5-house2{
+  background-image: url(img/house2.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.el-section5-house3{
+  background-image: url(img/house3.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.el-section5-house4{
+  background-image: url(img/house4.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.el-section5-house5{
+  background-image: url(img/house5.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.el-section5-house6{
+  background-image: url(img/house6.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+.house-information{
+  height: 150px;
+  width: 100%;
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 50px 50px;
+  gap: 10px;
+  justify-content: space-between;
+  align-content: center;
+  
+
+  
+}
+.house-information-div{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  
+}
+.contact-realtor{
+  padding: 15px;
+  background-color: rgb(198, 153, 99);
+  border-style: none;
+  color: white;
+  font-size: 20px;
+ 
+}
+.btn{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  border-style: none;
+
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: -20px;
+}
+
+.section6{
+  background-color: green;
+  height: 200px;
+}   
